@@ -1,0 +1,26 @@
+<div class="container mt-5">
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+        <div class="form-group">
+          <label>Imagem do Circuito:</label>
+          <input type="text" class="form-control"  placeholder="http://minha_foto.com" name="layt" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Nome do autodromo:</label>
+          <input type="text" class="form-control" placeholder="Nome do Autodromo" name="nome" ngModel>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Extensão do autodromo:</label>
+          <input type="text" class="form-control" placeholder="Extensão do trajeto" name="extensao" ngModel>
+        </div>        
+        
+        <div class="form-group">
+          <label for="exampleInputPassword1">Região do autodromo:</label>
+          <input type="text" class="form-control" placeholder="Localização" name="regiao" ngModel>
+        </div>    
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    
+
+</div>
+-
